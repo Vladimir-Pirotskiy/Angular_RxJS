@@ -1,0 +1,14 @@
+<div *ngIf="(modalPopup$ | async)" (click)="close()" class="modal">
+  <div class="modal-body">
+    <div class="container">
+      <img src="assets/img/user-icon.png" alt="user-icon">
+    </div>
+    <div>
+      <h3 *ngIf="user?.name">Name: {{user?.name}}</h3>
+      <h3 *ngIf="user?.last_name">Last Name: {{user?.last_name}}</h3>
+      <h3 *ngIf="user?.age">Age: {{user?.age}}</h3>
+      <h3 *ngIf="user?.is_COVID_positive">COVID Positive: {{user?.is_COVID_positive}}</h3>
+    </div>
+  </div>
+</div>
+<div *ngIf="(modalPopup$ | async)"   class="modal-background"></div>

@@ -1,0 +1,17 @@
+
+<footer class="footer">
+  <ul class="nav">
+    <li class="nav__item" *ngFor="let button of buttons"
+        [@buttonHover]="button.state"
+        (mouseover)="toggleState(button)"
+        (mouseout)="toggleState(button)">
+      <a href="#" class="nav__link">{{button.value}}</a>
+    </li>
+    <li class="nav__item">Table: {{(isLoaded$| async) ? 'ready': 'loading...'}}</li>
+  </ul>
+  <p class="copyright">
+    &copy; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum, eaque
+    eum explicabo illo in laboriosam maiores maxime nam nemo odio perferendis quae quia quod ratione
+    saepe ullam voluptas?
+  </p>
+</footer>
