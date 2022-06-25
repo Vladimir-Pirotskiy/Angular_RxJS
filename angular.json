@@ -108,5 +108,8 @@
       }
     }
   },
-  "defaultProject": "my-zesty-task"
+  "defaultProject": "my-zesty-task",
+  "cli": {
+    "analytics": "b8c21865-501e-47a1-9da7-306e4778087a"
+  }
 }
