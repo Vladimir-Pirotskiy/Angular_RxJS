@@ -1,10 +1,10 @@
 import {ChangeDetectorRef, Component, OnChanges, OnInit} from '@angular/core';
 import {mergeMap, Observable, ReplaySubject, scan, Subject, take, tap, toArray} from "rxjs";
 import {HttpClient} from "@angular/common/http";
-import {IUser} from "../../shared/model/IUser";
+import {IUser} from "../../../shared/model/IUser";
 import {delay, startWith} from 'rxjs/operators';
-import {UserService} from "../../shared/services/user.service";
-import {ModalPopupService} from "../../shared/services/modal-popup.service";
+import {UserService} from "../../../shared/services/user.service";
+import {ModalPopupService} from "../../../shared/services/modal-popup.service";
 
 @Component({
   selector: 'zesty-user-details-table',

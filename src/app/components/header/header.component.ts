@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {trigger, keyframes, transition, animate, style, state} from "@angular/animations";
-import {moveInLeft, moveInRight} from "../animations";
+import {moveInLeft, moveInRight} from "../../animations";
 
 @Component({
   selector: 'zesty-header',

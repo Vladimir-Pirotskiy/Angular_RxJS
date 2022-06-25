@@ -1,7 +1,7 @@
 <div *ngIf="(modalPopup$ | async)" (click)="close()" class="modal">
   <div class="modal-body">
     <div class="container">
-      <img src="assets/img/user-icon.png" alt="user-icon">
+      <img src="../../../assets/img/user-icon.png" alt="user-icon">
     </div>
     <div>
       <h3 *ngIf="user?.name">Name: {{user?.name}}</h3>

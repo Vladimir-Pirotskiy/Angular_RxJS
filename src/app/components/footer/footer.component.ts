@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {animate, style, transition, trigger, state} from "@angular/animations";
-import {buttonHover} from "../animations";
-import {UserService} from "../../shared/services/user.service";
+import {buttonHover} from "../../animations";
+import {UserService} from "../../../shared/services/user.service";
 import {Subject} from "rxjs";
 
 @Component({

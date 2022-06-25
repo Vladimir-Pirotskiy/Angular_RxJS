@@ -1,8 +1,8 @@
 import {Component, ElementRef, OnInit} from '@angular/core';
-import {ModalPopupService} from "../../shared/services/modal-popup.service";
+import {ModalPopupService} from "../../../shared/services/modal-popup.service";
 import {Subject} from "rxjs";
-import {UserService} from "../../shared/services/user.service";
-import {IUser} from "../../shared/model/IUser";
+import {UserService} from "../../../shared/services/user.service";
+import {IUser} from "../../../shared/model/IUser";
 
 @Component({
   selector: 'zesty-modal-popup-dialog',
